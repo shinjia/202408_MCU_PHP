@@ -12,8 +12,46 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 <h3>PHP 老師上課實作</h3>
 
 
+<h2>Class 03 (2024/08/08)</h2>
+<p>表單商品金額計算 (form_v...)</p>
+    <ul>
+        <li>(預備知識) 關於表單及表單元件</li>
+        <li>(v1) 表單傳遞資料<br>
+        程式 [<a href="form_v1/list.php">執行</a>]
+        查看原始碼：
+        [<a href="show_source.php?dir=form_v1&amp;file=list.php">list.php</a>]
+        [<a href="show_source.php?dir=form_v1&amp;file=calc.php">calc.php</a>]
+        </li>
+        <li>(v2) 依折扣條件計算金額<br>
+        程式 [<a href="form_v2/list.php">執行</a>]
+        查看原始碼：
+        [<a href="show_source.php?dir=form_v2&amp;file=list.php">list.php</a>]
+        [<a href="show_source.php?dir=form_v2&amp;file=calc.php">calc.php</a>]
+        </li>
+        <li>(v3) 定義常數及隱藏欄位<br>
+        程式 [<a href="form_v3/list.php">執行</a>]
+        查看原始碼：
+        [<a href="show_source.php?dir=form_v3&amp;file=list.php">list.php</a>]
+        [<a href="show_source.php?dir=form_v3&amp;file=calc.php">calc.php</a>]
+        </li>
+        <li>(v4) 表單元件陣列用法 (復習)<br>
+        程式 [<a href="form_v4/list.php">執行</a>]
+        查看原始碼：
+        [<a href="show_source.php?dir=form_v4&amp;file=list.php">list.php</a>]
+        [<a href="show_source.php?dir=form_v4&amp;file=calc.php">calc.php</a>]
+        </li>
+    </ul>
+
+
+<p>&nbsp;</p>
+
+
+
+
+
+
 <h2>Class 02 (2024/08/06)</h2>
-<p>商品清單及顯示 (product)</p>
+<p>商品清單及顯示 (product_v...)</p>
     <ul>
         <li>(預備知識) 關於陣列 note.php [<a href="product_v1/note.php">執行</a>]
         [<a href="show_source.php?dir=product_v1&amp;file=note.php">原始碼</a>]
@@ -45,6 +83,9 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 </ul>
 
 <p>&nbsp;</p>
+
+
+
 
 
 
