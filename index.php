@@ -11,6 +11,42 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 <body>
 <h3>PHP 老師上課實作</h3>
 
+<<<<<<< HEAD
+<p>教學網址：<a href="https://hackmd.io/@Shinjia/BJYskKdKR">https://hackmd.io/@Shinjia/BJYskKdKR</a></p>
+
+=======
+>>>>>>> 6ec6e81be46633fc7bc5fa7b1a22a9466c714efc
+<h2>Class 04 (2024/08/13)</h2>
+<p>上週補充：表單商品金額計算 (form_v5)</p>
+    <ul>
+        <li>(v5) 讀取定義檔，產生表單元件陣列<br>
+        程式 [<a href="form_v5/list.php">執行</a>]
+        查看原始碼：
+        [<a href="show_source.php?dir=form_v5&amp;file=list.php">list.php</a>]
+        [<a href="show_source.php?dir=form_v5&amp;file=calc.php">calc.php</a>]
+        [<a href="show_source.php?dir=form_v5&amp;file=data.php">data.php</a>]
+        </li>
+    </ul>
+<<<<<<< HEAD
+<p>問卷調查 (survey)</p>
+    <ul>
+        <li>程式 [<a href="survey/input.php">執行</a>]
+        查看原始碼：
+        [<a href="show_source.php?dir=survey&amp;file=input.php">input.php</a>]
+        [<a href="show_source.php?dir=survey&amp;file=show.php">show.php</a>]
+        </li>
+    </ul>
+
+<p>&nbsp;</p>
+
+=======
+
+
+<p>&nbsp;</p>
+
+
+
+>>>>>>> 6ec6e81be46633fc7bc5fa7b1a22a9466c714efc
 
 <h2>Class 03 (2024/08/08)</h2>
 <p>表單商品金額計算 (form_v...)</p>
