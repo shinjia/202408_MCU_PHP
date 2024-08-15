@@ -1,5 +1,5 @@
 <?php
-
+ 
 include 'data.php';   // 引入資料陣列
 
 $data = '';
@@ -15,10 +15,6 @@ foreach($a_fruits as $key=>$ary) {
         <td>{$name}</td>
         <td>{$price}</td>
         <td><input type="text" name="amt[]">
-<<<<<<< HEAD
-=======
-            <input type="hidden" name="price[]" value="{$price}">
->>>>>>> 6ec6e81be46633fc7bc5fa7b1a22a9466c714efc
             <input type="hidden" name="id[]" value="{$key}">
         </td>
     </tr>
