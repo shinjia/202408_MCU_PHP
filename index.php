@@ -13,6 +13,75 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 
 <p>教學網址：<a href="https://hackmd.io/@Shinjia/BJYskKdKR">https://hackmd.io/@Shinjia/BJYskKdKR</a></p>
 
+<div class="hot" style="background-color:rgb(235, 216, 189); padding:5px;">
+    <p>(快速連結) db_系列程式：|
+        <a href="db_mysqli/">db_mysqli</a> |
+        <a href="db_pdo/">db_pdo</a> |
+        <a href="db_ext2/">db_ext2</a> |
+    </p>
+</div>
+
+
+<h2>Class 09 (2024/08/29)</h2>
+<p>參考上列資料庫系列程式</p>
+<p>&nbsp;</p>
+
+
+
+<h2>Class 08 (2024/08/27)</h2>
+<p>查詢程式 (db_mysqli)</p>
+<ul>
+    <li>(用list_all來改) find 程式執行 <a href="db_mysqli/find.php">find.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find.php">find.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find_x.php">find_x.php</a>]
+    </li>
+    <li>(用list_page來改) find2 程式執行 <a href="db_mysqli/find2.php">find2.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find2.php">find2.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find2_x.php">find2_x.php</a>]
+    </li>
+    <li>find3 程式執行 <a href="db_mysqli/find3.php">find3.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find3.php">find3.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find3_x.php">find3_x.php</a>]
+        (查詢多個欄位) 
+    </li>
+    <li>find4 程式執行 <a href="db_mysqli/find4.php">find4.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find4.php">find4.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find4_x.php">find4_x.php</a>]
+        (不同的查詢欄位，用同一支程式)
+    </li>
+    <li>find5 程式執行 <a href="db_mysqli/find5.php">find5.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find5.php">find5.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find5_x.php">find5_x.php</a>]
+        (列出所有地區，用選的)
+    </li>
+</ul>
+<p>&nbsp;</p>
+
+
+
+<h2>Class 07 (2024/08/22)</h2>
+<p>參考上列資料庫系列程式</p>
+<p>&nbsp;</p>
+
+
+
+<h2>Class 06 (2024/08/20)</h2>
+
+<p>db_系列程式</p>
+<p>PHP 連結 MySQL 的程式測試 (db_test)</p>
+<ul>
+    <li>查看原始碼：[<a href="show_source.php?dir=db_test&amp;file=test.php">db_test/test.php</a>]</li>
+</li>
+</ul>
+<p>&nbsp;</p>
+
+
+
 <h2>Class 05 (2024/08/15)</h2>
 <p>補充：表單商品金額計算 (form_v6)</p>
     <ul>
