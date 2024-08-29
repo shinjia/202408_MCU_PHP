@@ -23,7 +23,14 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 
 
 <h2>Class 09 (2024/08/29)</h2>
-<p>參考上列資料庫系列程式</p>
+<p>參考上列資料庫系列程式 (db_pdo)</p>
+<p>dbs_person
+    <ul>
+        <li><a href="dbs_person/web">前台 dbs_person/web</a></li>
+        <li><a href="dbs_person/admin">後台 dbs_person/admin</a></li>
+        <li><a href="dbs_person/install">安裝程式 dbs_person/install/install.php</a></li>
+    </ul>
+</p>
 <p>&nbsp;</p>
 
 
