@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>db_pdo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+<script>
+function data_render() {
+
+    var vjson = {"usercode":"62d9f7a8b27d2","username":"\u9ec3\u6241\u5408","address":"\u53f0\u5357","birthday":"1952-12-02","height":"168","weight":"60","remark":"D"};
+
+    var s_usercode = vjson.usercode;
+    var s_username = vjson.username;
+    var s_address  = vjson.address;
+    var s_birthday = vjson.birthday;
+    var s_height   = vjson.height;
+    var s_weight   = vjson.weight;
+    var s_remark   = vjson.remark;
+    
+    var str = '';
+    str += '<table border="1">';
+    str += '<tr><td>' + s_usercode + '</td></tr>';
+    str += '<tr><td>' + s_username + '</td></tr>';
+    str += '<tr><td>' + s_address  + '</td></tr>';
+    str += '<tr><td>' + s_birthday + '</td></tr>';
+    str += '<tr><td>' + s_height   + '</td></tr>';
+    str += '<tr><td>' + s_weight   + '</td></tr>';
+    str += '<tr><td>' + s_remark   + '</td></tr>';
+    str += '</table>';
+console.log('running');
+    document.getElementById('area_data').innerHTML = str + 'OK';
+}
+</script>
+</head>
+<body>
+
+<div class="container">
+    <div id="header">
+        <h1>後台資料庫管理 db2_json</h1>
+    </div>
+    
+    <div id="nav">     
+        | <a href="index.php" target="_top">首頁</a>
+        | <a href="page.php?code=note2">說明</a> 
+        | <a href="list_page.php">資料列表</a>
+        |
+    </div>
+    
+    <div id="main">
+        <h2>詳細資料</h2>
+        <div id="area_data">
+            <table border="1" class="table">
+                <tr><th>代碼</th><td>62d9f7a8b27d2</td></tr>
+                <tr><th>姓名</th><td>黃扁合</td></tr>
+                <tr><th>地址</th><td>台南</td></tr>
+                <tr><th>生日</th><td>1952-12-02</td></tr>
+                <tr><th>身高</th><td>168</td></tr>
+                <tr><th>體重</th><td>60</td></tr>
+                <tr><th>備註</th><td>D</td></tr>
+            </table>
+        </div>
+
+
+<script>data_render();</script>
+    </div>
+
+    <div id="footer">
+        <p>版權聲明</p>
+    </div>
+
+</div>
+
+</body>
+</html>  

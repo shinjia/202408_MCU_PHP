@@ -3,6 +3,10 @@
 $amt_1 = $_POST['amt_1'] ?? 0;
 $amt_2 = $_POST['amt_2'] ?? 0;
 
+// 因為表單傳入一定都是文字型態
+$amt_1 = intval($amt_1);  // 強制轉為數值(整數)
+$amt_2 = intval($amt_2);
+
 // 計算總金額
 $total = 0;
 $total += 100 * $amt_1;

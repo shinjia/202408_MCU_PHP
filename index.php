@@ -13,13 +13,62 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 
 <p>教學網址：<a href="https://hackmd.io/@Shinjia/BJYskKdKR">https://hackmd.io/@Shinjia/BJYskKdKR</a></p>
 
+<div class="hot" style="background-color:rgb(235, 100, 100); padding:5px;">
+    <p><a href="../Class12_download.zip">今日程式整批下載 Class12_download.zip</a></p>
+</div>
+
+
 <div class="hot" style="background-color:rgb(235, 216, 189); padding:5px;">
     <p>(快速連結) db_系列程式：|
         <a href="db_mysqli/">db_mysqli</a> |
         <a href="db_pdo/">db_pdo</a> |
-        <a href="db_ext2/">db_ext2</a> |
+        <a href="db_ext2/">db_ext2</a> ||
+        <a href="dbs_person/">dbs_person</a> |
     </p>
 </div>
+
+
+<h2>Class 12 (2024/09/10)</h2>
+<p>一對多資料庫關聯範例</p>
+<ul>
+    <li><a href="my_book/">my_book</a></li>
+</ul>
+<p>多對多資料庫關聯範例</p>
+<ul>
+    <li><a href="my_store/">my_store</a></li>
+</ul>
+<p>&nbsp;</p>
+
+
+
+<h2>Class 11 (2024/09/05)</h2>
+<p>請參考各自資料夾內的程式</p>
+<ul>
+    <li>json_php</li>
+    <li>db2_json</li>
+    <li>db2_api_js</li>
+    <li>ajax</li>
+    <li>ajax_db_demo</li>
+</ul>
+<p>&nbsp;</p>
+
+
+
+<h2>Class 10 (2024/09/03)</h2>
+<p>Cookie, Session, Upload</p>
+<ul>
+    <li>Cookie</li>
+    <li>session_login</li>
+    <li>dbs_person_ext/v2 實際套用到系統開發</li>
+</ul>
+<p>檔案上傳</p>
+<ul>
+    <li>php_upload</li>
+    <li>drag_upload</li>
+    <li>dbs_person_ext/v3 實際套用到系統開發</li>
+</ul>
+<p>&nbsp;</p>
+
 
 
 <h2>Class 09 (2024/08/29)</h2>
